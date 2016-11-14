@@ -326,7 +326,7 @@ public void  Random( ){
 
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(mContext);
 
-        alertDialogBuilder.setMessage("GAME OVER!!!!!!  Scrore:"+score).setNegativeButton("Salir", new DialogInterface.OnClickListener() {
+        alertDialogBuilder.setMessage("GAME OVER!!!!!!  Score:"+score).setNegativeButton("Salir", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 gameThread.interrupt();
